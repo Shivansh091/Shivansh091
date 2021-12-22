@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p{color:red;
+  width:"90%";}
+.div{width:"50%";
+color:red;}
+</style>
+<title></title>
+<body>
+
+
+<fieldset>
+<legend>personal</legend>
+<form action="/action_page.php"" method="get">
+<label for="fname">name</label><br>
+<input tpe="text" id="fname" name="fname">
+<input type="range" value="50">
+<input type="color">
+<input type="date">
+<input type="email">
+<input type="hidden">
+Example
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars" size="3" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+</form>
+</fieldset>
+<textarea name="message" rows="7" cols="8">
+The cat was playing in the garden.
+</textarea>
+<button type="button" onclick="alert('hii')">click me</button>
+<p id="demo"></p>
+<form action="/action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+<fieldset>
+<legend>file</legend>
+
+<input type="file">
+</fieldset>
+
+<label>month</label><input class="div" type="month">
+<br>
+<label>number</label>
+<input class="div" type="number" step="3"><br>
+<label>password</label>
+<input type="password"><br>
+<label>choose</label>
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week" autofocus>
+Tip: The default value of the type attribute
+
+<canvas id="myCanvas" width="200" height="100"></canvas>
+
+</body>
+</html>
